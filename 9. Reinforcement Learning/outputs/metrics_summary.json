@@ -1,0 +1,42 @@
+{
+  "Random Agent": {
+    "episodes": 100,
+    "success_rate": 0.0,
+    "loot_pickup_rate": 0.0,
+    "caught_rate": 100.0,
+    "timeout_rate": 0.0,
+    "avg_raw_reward": -105.98,
+    "avg_steps_success": null,
+    "hide_usage_pct": 19.7
+  },
+  "BFS Heuristic": {
+    "episodes": 100,
+    "success_rate": 2.0,
+    "loot_pickup_rate": 23.0,
+    "caught_rate": 98.0,
+    "timeout_rate": 0.0,
+    "avg_raw_reward": -88.88,
+    "avg_steps_success": 22.0,
+    "hide_usage_pct": 0.0
+  },
+  "Double DQN (Sparse)": {
+    "episodes": 100,
+    "success_rate": 98.0,
+    "loot_pickup_rate": 99.0,
+    "caught_rate": 2.0,
+    "timeout_rate": 0.0,
+    "avg_raw_reward": 126.73,
+    "avg_steps_success": 29.73,
+    "hide_usage_pct": 14.53
+  },
+  "Double DQN (Shaped)": {
+    "episodes": 100,
+    "success_rate": 90.0,
+    "loot_pickup_rate": 96.0,
+    "caught_rate": 9.0,
+    "timeout_rate": 1.0,
+    "avg_raw_reward": 110.37,
+    "avg_steps_success": 29.59,
+    "hide_usage_pct": 4.77
+  }
+}
